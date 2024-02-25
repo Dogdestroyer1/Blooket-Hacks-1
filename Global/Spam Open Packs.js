@@ -4,16 +4,16 @@ if (console_msg("Spam Open Packs")) {
 // Part 1
 var axios = Object.values(webpackJsonp.push([[], { ['']: (_, a, b) => { a.cache = b.c }, }, [['']],]).cache).find((x) => x.exports?.a?.get).exports.a;
 let prices = Object.values(webpackJsonp.push([[], { ['']: (_, a, b) => { a.cache = b.c }, }, [['']],]).cache).find(x => x?.exports?.a?.Safari).exports.a || {
-        "Medieval": 15,
-        "Breakfast": 15,
-        "Wonderland": 15,
-        "Space": 20,
-        "Bot": 20,
-        "Aquatic": 20,
-        "Safari": 20,
-        "Dino": 25,
-        "Ice Monster": 25,
-	"Outback":25
+        "Medieval": 0,
+        "Breakfast": 0,
+        "Wonderland": 0,
+        "Space": 184,
+        "Bot": 0,
+        "Aquatic": 0,
+        "Safari": 0,
+        "Dino": 0,
+        "Ice Monster": 0,
+	"Outback": 0
     };;
 var packPrice;
 var baseElement = document.createElement("div");
